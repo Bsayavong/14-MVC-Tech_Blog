@@ -1,0 +1,14 @@
+{{#if loggedIn}}
+{{#each postData as |post|}}
+    <div class="post-container">
+        <h4>{{title}}</h4>
+        <p>{{content}}</p>
+        <p>{{date}}</p>
+        <a href="/{{id}}">View</a>
+    </div>
+{{/each}}
+<div class="d-flex justify-content-center">
+<a id="post-button" class="link" href="/new">New Post</a>
+</div>
+{{else}}
+{{/if}}
