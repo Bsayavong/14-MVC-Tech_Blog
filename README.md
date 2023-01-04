@@ -1,5 +1,5 @@
 ## Description
-  This app provides a basic framework for a tech-blog. The application was written following the MVC paradigm along with handlebars.
+  This app provides a basic framework for a tech-blog. I was able to write the code following the MVC paradigm along with handlebars.
   
 ## User Story
 
